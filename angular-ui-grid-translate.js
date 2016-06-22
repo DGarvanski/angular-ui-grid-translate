@@ -42,32 +42,32 @@
         };
     }) .config(function ($translateProvider) {
         $translateProvider.translations('bg', {
-            pagination_firstPage: "Първа страница",
-            pagination_pageBack: "Предишна страница",
-            pagination_nextPage: "Следваща страница",
-            pagination_lastPage: "Последна страница",
-            pagination_itemsPerPage: "обекта на страница",
-            pagination_of: "от",
-            pagination_items: "обекта",
+            pagination_firstPage: "РџСЉСЂРІР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_pageBack: "РџСЂРµРґРёС€РЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_nextPage: "РЎР»РµРґРІР°С‰Р° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_lastPage: "РџРѕСЃР»РµРґРЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_itemsPerPage: "РѕР±РµРєС‚Р° РЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_of: "РѕС‚",
+            pagination_items: "РѕР±РµРєС‚Р°",
             /* End Pagination Translations */
 
-            footer_totalItems: "Брой обекти:",
-            footer_showingItems: "Показване на обекти:",
-            footer_selectedItems: "Избрани:"
+            footer_totalItems: "Р‘СЂРѕР№ РѕР±РµРєС‚Рё:",
+            footer_showingItems: "РџРѕРєР°Р·РІР°РЅРµ РЅР° РѕР±РµРєС‚Рё:",
+            footer_selectedItems: "РР·Р±СЂР°РЅРё:"
         });
         $translateProvider.translations('bg_BG', {
-            pagination_firstPage: "Първа страница",
-            pagination_pageBack: "Предишна страница",
-            pagination_nextPage: "Следваща страница",
-            pagination_lastPage: "Последна страница",
-            pagination_itemsPerPage: "обекта на страница",
-            pagination_of: "от",
-            pagination_items: "обекта",
+            pagination_firstPage: "РџСЉСЂРІР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_pageBack: "РџСЂРµРґРёС€РЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_nextPage: "РЎР»РµРґРІР°С‰Р° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_lastPage: "РџРѕСЃР»РµРґРЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_itemsPerPage: "РѕР±РµРєС‚Р° РЅР° СЃС‚СЂР°РЅРёС†Р°",
+            pagination_of: "РѕС‚",
+            pagination_items: "РѕР±РµРєС‚Р°",
             /* End Pagination Translations */
 
-            footer_totalItems: "Брой обекти:",
-            footer_showingItems: "Показване на обекти:",
-            footer_selectedItems: "Избрани:"
+            footer_totalItems: "Р‘СЂРѕР№ РѕР±РµРєС‚Рё:",
+            footer_showingItems: "РџРѕРєР°Р·РІР°РЅРµ РЅР° РѕР±РµРєС‚Рё:",
+            footer_selectedItems: "РР·Р±СЂР°РЅРё:"
             /*End Footer Translations*/
         });
         $translateProvider.translations('en', {
