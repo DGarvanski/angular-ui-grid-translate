@@ -38,122 +38,122 @@
             "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
         );
         //Templates end
-    })
-        //Optional controller
-        .controller("uigt.LanguageController", function ($translate, $scope) {
-            var languageController = $scope;
-            languageController.changeTo = function (lang) {
-                $translate.use(lang);
-            };
-        }).config(function ($translateProvider) {
-            //Translations start
-            //ToDo: move translations from ui-grid files to here. Add more(?)
-            $translateProvider.translations('bg', {
-                pagination_firstPage: "Първа страница",
-                pagination_pageBack: "Предишна страница",
-                pagination_nextPage: "Следваща страница",
-                pagination_lastPage: "Последна страница",
-                pagination_itemsPerPage: "обекта на страница",
-                pagination_of: "от",
-                pagination_items: "обекта",
-                /* End Pagination Translations */
 
-                footer_totalItems: "Брой обекти:",
-                footer_showingItems: "Показване на обекти:",
-                footer_selectedItems: "Избрани:",
-                /*End Footer Translations*/
+        //Optional controller. Should it be removed or left as an option?
+    }).controller("uigt.LanguageController", function ($translate, $scope) {
+        var languageController = $scope;
+        languageController.changeTo = function (lang) {
+            $translate.use(lang);
+        };
+    }).config(function ($translateProvider) {
+        //Translations start
+        //ToDo: move translations from ui-grid files to here. Add more(?)
+        $translateProvider.translations('bg', {
+            pagination_firstPage: "Първа страница",
+            pagination_pageBack: "Предишна страница",
+            pagination_nextPage: "Следваща страница",
+            pagination_lastPage: "Последна страница",
+            pagination_itemsPerPage: "обекта на страница",
+            pagination_of: "от",
+            pagination_items: "обекта",
+            /* End Pagination Translations */
 
-                sort_ascending: "Възходящ ред",
-                sort_descending: "Низходящ ред",
-                sort_remove: "Премахване на сортирането"
-            });
-            $translateProvider.translations('bg_BG', {
-                pagination_firstPage: "Първа страница",
-                pagination_pageBack: "Предишна страница",
-                pagination_nextPage: "Следваща страница",
-                pagination_lastPage: "Последна страница",
-                pagination_itemsPerPage: "обекта на страница",
-                pagination_of: "от",
-                pagination_items: "обекта",
-                /* End Pagination Translations */
+            footer_totalItems: "Брой обекти:",
+            footer_showingItems: "Показване на обекти:",
+            footer_selectedItems: "Избрани:",
+            /*End Footer Translations*/
 
-                footer_totalItems: "Брой обекти:",
-                footer_showingItems: "Показване на обекти:",
-                footer_selectedItems: "Избрани:",
-                /*End Footer Translations*/
-
-                sort_ascending: "Възходящ ред",
-                sort_descending: "Низходящ ред",
-                sort_remove: "Премахване на сортирането"
-                /*End column menu translations*/
-            });
-            $translateProvider.translations('en', {
-                pagination_firstPage: "First page",
-                pagination_pageBack: "Previous page",
-                pagination_nextPage: "Next page",
-                pagination_lastPage: "Last page",
-                pagination_itemsPerPage: "items per page",
-                pagination_of: "of",
-                pagination_items: "items",
-                /* End Pagination Translations */
-
-                footer_totalItems: "Total items:",
-                footer_showingItems: "Showing items:",
-                footer_selectedItems: "Selected:",
-                /*End Footer Translations*/
-
-                sort_ascending: "Sort ascending",
-                sort_descending: "Sort descending",
-                sort_remove: "Remove sort"
-                /*End column menu translations*/
-
-            });
-            $translateProvider.translations('en_US', {
-                pagination_firstPage: "First page",
-                pagination_pageBack: "Previous page",
-                pagination_nextPage: "Next page",
-                pagination_lastPage: "Last page",
-                pagination_itemsPerPage: "items per page",
-                pagination_of: "of",
-                pagination_items: "items",
-                /* End Pagination Translations */
-
-                footer_totalItems: "Total items:",
-                footer_showingItems: "Showing items:",
-                footer_selectedItems: "Selected:",
-                /*End Footer Translations*/
-
-                sort_ascending: "Sort ascending",
-                sort_descending: "Sort descending",
-                sort_remove: "Remove sort"
-                /*End column menu translations*/
-            });
-            $translateProvider.translations('en_GB', {
-                pagination_firstPage: "First page",
-                pagination_pageBack: "Previous page",
-                pagination_nextPage: "Next page",
-                pagination_lastPage: "Last page",
-                pagination_itemsPerPage: "items per page",
-                pagination_of: "of",
-                pagination_items: "items",
-                /* End Pagination Translations */
-
-                footer_totalItems: "Total items:",
-                footer_showingItems: "Showing items:",
-                footer_selectedItems: "Selected:",
-                /*End Footer Translations*/
-
-                sort_ascending: "Sort ascending",
-                sort_descending: "Sort descending",
-                sort_remove: "Remove sort"
-                /*End column menu translations*/
-
-            });
-            //Translations end
-
-            //ToDo: Test preferredLanguage config
-            $translateProvider.preferredLanguage('en' | 'en_US');
-            //Enable escaping of HTML. Improves security, removes console warning.
-            $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
+            sort_ascending: "Възходящ ред",
+            sort_descending: "Низходящ ред",
+            sort_remove: "Премахване на сортирането"
         });
+        $translateProvider.translations('bg_BG', {
+            pagination_firstPage: "Първа страница",
+            pagination_pageBack: "Предишна страница",
+            pagination_nextPage: "Следваща страница",
+            pagination_lastPage: "Последна страница",
+            pagination_itemsPerPage: "обекта на страница",
+            pagination_of: "от",
+            pagination_items: "обекта",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Брой обекти:",
+            footer_showingItems: "Показване на обекти:",
+            footer_selectedItems: "Избрани:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Възходящ ред",
+            sort_descending: "Низходящ ред",
+            sort_remove: "Премахване на сортирането"
+            /*End column menu translations*/
+        });
+        $translateProvider.translations('en', {
+            pagination_firstPage: "First page",
+            pagination_pageBack: "Previous page",
+            pagination_nextPage: "Next page",
+            pagination_lastPage: "Last page",
+            pagination_itemsPerPage: "items per page",
+            pagination_of: "of",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total items:",
+            footer_showingItems: "Showing items:",
+            footer_selectedItems: "Selected:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sort ascending",
+            sort_descending: "Sort descending",
+            sort_remove: "Remove sort"
+            /*End column menu translations*/
+
+        });
+        $translateProvider.translations('en_US', {
+            pagination_firstPage: "First page",
+            pagination_pageBack: "Previous page",
+            pagination_nextPage: "Next page",
+            pagination_lastPage: "Last page",
+            pagination_itemsPerPage: "items per page",
+            pagination_of: "of",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total items:",
+            footer_showingItems: "Showing items:",
+            footer_selectedItems: "Selected:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sort ascending",
+            sort_descending: "Sort descending",
+            sort_remove: "Remove sort"
+            /*End column menu translations*/
+        });
+        $translateProvider.translations('en_GB', {
+            pagination_firstPage: "First page",
+            pagination_pageBack: "Previous page",
+            pagination_nextPage: "Next page",
+            pagination_lastPage: "Last page",
+            pagination_itemsPerPage: "items per page",
+            pagination_of: "of",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total items:",
+            footer_showingItems: "Showing items:",
+            footer_selectedItems: "Selected:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sort ascending",
+            sort_descending: "Sort descending",
+            sort_remove: "Remove sort"
+            /*End column menu translations*/
+
+        });
+        //Translations end
+
+        //ToDo: Test preferredLanguage config
+        $translateProvider.preferredLanguage('en' | 'en_US');
+        //Enable escaping of HTML. Improves security, removes console warning.
+        $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
+    });
 })();
