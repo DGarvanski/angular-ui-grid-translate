@@ -1,5 +1,7 @@
 (function () {
     angular.module('angular-ui-grid-translate').run(function ($templateCache) {
+         //Templates start
+        //ToDo: add all templates
         $templateCache.put('ui-grid/pagination',
             "<div role=\"contentinfo\" class=\"ui-grid-pager-panel\" ui-grid-pager ng-show=\"grid.options.enablePaginationControls\">" +
             "<div role=\"navigation\" class=\"ui-grid-pager-container\">" +
@@ -41,6 +43,8 @@
             $translate.use(lang);
         };
     }) .config(function ($translateProvider) {
+         //Translations start
+        //ToDo: move translations from ui-grid files to here. Add more(?)
         $translateProvider.translations('bg', {
             pagination_firstPage: "Първа страница",
             pagination_pageBack: "Предишна страница",
@@ -116,8 +120,12 @@
             footer_showingItems: "Showing items:",
             footer_selectedItems: "Selected:"
             /*End Footer Translations*/
+            
+            //Translations end
 
         });
+        
+         //ToDo: Test preferredLanguage config
         $translateProvider.preferredLanguage('en' | 'en_US');
         //Enable escaping of HTML. Improves security, removes console warning.
         $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
