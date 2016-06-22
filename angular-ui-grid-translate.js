@@ -127,8 +127,6 @@
                 sort_descending: "Sort descending",
                 sort_remove: "Remove sort"
                 /*End column menu translations*/
-
-                
             });
             $translateProvider.translations('en_GB', {
                 pagination_firstPage: "First page",
