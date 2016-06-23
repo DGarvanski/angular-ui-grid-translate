@@ -165,8 +165,7 @@
         });
         //Translations end
 
-        //ToDo: Test preferredLanguage config
-        $translateProvider.preferredLanguage('en' | 'en_US');
+        $translateProvider.preferredLanguage('en');
         //Enable escaping of HTML. Improves security, removes console warning.
         $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
     });
