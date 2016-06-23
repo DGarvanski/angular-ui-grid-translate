@@ -1,4 +1,18 @@
 (function () {
+    'use strict';
+
+    angular
+        .module('angular-ui-grid-translate', [
+            'ui.grid',
+            'ui.grid.selection',
+            'ui.grid.pagination',
+            'ui.grid.autoResize',
+            'pascalprecht.translate'
+
+        ]);
+})();
+
+(function () {
     angular.module('angular-ui-grid-translate').run(function ($templateCache) {
         //Templates start
         //ToDo: add all templates
