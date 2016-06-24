@@ -163,6 +163,204 @@
             /*End column menu translations*/
 
         });
+
+        $translateProvider.translations('es', {
+            pagination_firstPage: "Primera Página",
+            pagination_pageBack: "Página Anterior",
+            pagination_nextPage: "Página Siguiente",
+            pagination_lastPage: "Última Página",
+            pagination_itemsPerPage: "registros por página",
+            pagination_of: "de",
+            pagination_items: "registros",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Artículos Totales:",
+            footer_showingItems: "Artículos Mostrados:",
+            footer_selectedItems: "Artículos Seleccionados:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Orden Ascendente",
+            sort_descending: "Orden Descendente",
+            sort_remove: "Sin Ordenar"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('es_ES', {
+            pagination_firstPage: "Primera Página",
+            pagination_pageBack: "Página Anterior",
+            pagination_nextPage: "Página Siguiente",
+            pagination_lastPage: "Última Página",
+            pagination_itemsPerPage: "registros por página",
+            pagination_of: "de",
+            pagination_items: "registros",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Artículos Totales:",
+            footer_showingItems: "Artículos Mostrados:",
+            footer_selectedItems: "Artículos Seleccionados:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Orden Ascendente",
+            sort_descending: "Orden Descendente",
+            sort_remove: "Sin Ordenar"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('fr', {
+            pagination_firstPage: "Première page",
+            pagination_pageBack: "Page précédente",
+            pagination_nextPage: "Page Suivante",
+            pagination_lastPage: "Dernière page",
+            pagination_itemsPerPage: "éléments par page",
+            pagination_of: "sur",
+            pagination_items: "éléments",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Nombre total d\'éléments:",
+            footer_showingItems: "Affichage des éléments:",
+            footer_selectedItems: "Éléments sélectionnés:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Trier par ordre croissant",
+            sort_descending: "Trier par ordre décroissant",
+            sort_remove: "Enlever le tri"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('fr_FR', {
+            pagination_firstPage: "Première page",
+            pagination_pageBack: "Page précédente",
+            pagination_nextPage: "Page Suivante",
+            pagination_lastPage: "Dernière page",
+            pagination_itemsPerPage: "éléments par page",
+            pagination_of: "sur",
+            pagination_items: "éléments",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Nombre total d\'éléments:",
+            footer_showingItems: "Affichage des éléments:",
+            footer_selectedItems: "Éléments sélectionnés:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Trier par ordre croissant",
+            sort_descending: "Trier par ordre décroissant",
+            sort_remove: "Enlever le tri"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('it', {
+            pagination_firstPage: "Prima",
+            pagination_pageBack: "Precedente",
+            pagination_nextPage: "Prossima",
+            pagination_lastPage: "Ultima",
+            pagination_itemsPerPage: "articoli per pagina",
+            pagination_of: "di",
+            pagination_items: "articoli",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Totali:",
+            footer_showingItems: "Mostra:",
+            footer_selectedItems: "Selezionati:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Asc.",
+            sort_descending: "Desc.",
+            sort_remove: "Annulla ordinamento"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('it_IT', {
+            pagination_firstPage: "Prima",
+            pagination_pageBack: "Precedente",
+            pagination_nextPage: "Prossima",
+            pagination_lastPage: "Ultima",
+            pagination_itemsPerPage: "articoli per pagina",
+            pagination_of: "di",
+            pagination_items: "articoli",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Totali:",
+            footer_showingItems: "Mostra:",
+            footer_selectedItems: "Selezionati:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Asc.",
+            sort_descending: "Desc.",
+            sort_remove: "Annulla ordinamento"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('fi', {
+            pagination_firstPage: "Ensimmäinen sivu",
+            pagination_pageBack: "Edellinen sivu",
+            pagination_nextPage: "Seuraava sivu",
+            pagination_lastPage: "Viimeinen sivu",
+            pagination_itemsPerPage: "kohdetta per sivu",
+            pagination_of: "/",
+            pagination_items: "kohdetta",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Rivejä yht.:",
+            footer_showingItems: "Näytetään rivejä:",
+            footer_selectedItems: "Valitut rivit:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Järjestä nouseva",
+            sort_descending: "Järjestä laskeva",
+            sort_remove: "Poista järjestys"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('fin', {
+            pagination_firstPage: "Ensimmäinen sivu",
+            pagination_pageBack: "Edellinen sivu",
+            pagination_nextPage: "Seuraava sivu",
+            pagination_lastPage: "Viimeinen sivu",
+            pagination_itemsPerPage: "kohdetta per sivu",
+            pagination_of: "/",
+            pagination_items: "kohdetta",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Rivejä yht.:",
+            footer_showingItems: "Näytetään rivejä:",
+            footer_selectedItems: "Valitut rivit:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Järjestä nouseva",
+            sort_descending: "Järjestä laskeva",
+            sort_remove: "Poista järjestys"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('fi_FI', {
+            pagination_firstPage: "Ensimmäinen sivu",
+            pagination_pageBack: "Edellinen sivu",
+            pagination_nextPage: "Seuraava sivu",
+            pagination_lastPage: "Viimeinen sivu",
+            pagination_itemsPerPage: "kohdetta per sivu",
+            pagination_of: "/",
+            pagination_items: "kohdetta",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Rivejä yht.:",
+            footer_showingItems: "Näytetään rivejä:",
+            footer_selectedItems: "Valitut rivit:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Järjestä nouseva",
+            sort_descending: "Järjestä laskeva",
+            sort_remove: "Poista järjestys"
+            /*End column menu translations*/
+
+        });
         //Translations end
 
         $translateProvider.preferredLanguage('en');
