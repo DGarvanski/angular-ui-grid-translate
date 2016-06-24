@@ -18,7 +18,7 @@
     "Deyan Garvanski (dgarvanski@gmail.com)"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/DGarvanski/angular-ui-grid-translate",
   "ignore": [
     "**/.*",
     "node_modules",
