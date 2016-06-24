@@ -36,17 +36,20 @@
             "<span ng-if=\"grid.renderContainers.body.visibleRowCache.length !== grid.rows.length\" class=\"ngLabel\">({{\"footer_showingItems\" | translate}} {{grid.renderContainers.body.visibleRowCache.length}})</span></div>"
         );
         $templateCache.put('ui-grid/uiGridColumnMenu',
-            "<div class=\"ui-grid-column-menu\"><div ui-grid-menu menu-items=\"menuItems\"><!-- <div class=\"ui-grid-column-menu\">\n" +
-            "    <div class=\"inner\" ng-show=\"menuShown\">\n" +
-            "      <ul>\n" +
-            "        <div ng-show=\"grid.options.enableSorting\">\n" +
-            "          <li ng-click=\"sortColumn($event, asc)\" ng-class=\"{ 'selected' : col.sort.direction == asc }\"><i class=\"ui-grid-icon-sort-alt-up\"></i> {{sort_ascending | translate}}</li>\n" +
-            "          <li ng-click=\"sortColumn($event, desc)\" ng-class=\"{ 'selected' : col.sort.direction == desc }\"><i class=\"ui-grid-icon-sort-alt-down\"></i> {{sort_descending | translate}}</li>\n" +
-            "          <li ng-show=\"col.sort.direction\" ng-click=\"unsortColumn()\"><i class=\"ui-grid-icon-cancel\"></i> {{sort_remove | translate}}</li>\n" +
-            "        </div>\n" +
-            "      </ul>\n" +
-            "    </div>\n" +
-            "  </div> --></div></div>"
+            "<div class=\"ui-grid-column-menu\"><div ui-grid-menu menu-items=\"menuItems\"><div class=\"ui-grid-column-menu\"> " +
+            "    <div class=\"inner\" ng-show=\"menuShown\"> " +
+            "      <ul> " +
+            "        <div ng-show=\"grid.options.enableSorting\"> " +
+            "          <li ng-click=\"sortColumn($event, asc)\" ng-class=\"{ 'selected' : col.sort.direction == asc }\"><i class=\"ui-grid-icon-sort-alt-up\"></i> {{sort_ascending | translate}}</li> " +
+            "          <li ng-click=\"sortColumn($event, desc)\" ng-class=\"{ 'selected' : col.sort.direction == desc }\"><i class=\"ui-grid-icon-sort-alt-down\"></i> {{sort_descending | translate}}</li> " +
+            "          <li ng-show=\"col.sort.direction\" ng-click=\"unsortColumn()\"><i class=\"ui-grid-icon-cancel\"></i> {{sort_remove | translate}}</li> " +
+            "        </div> " +
+            "      </ul>" +
+            "    </div>" +
+            "  </div></div></div>"
+        );
+        $templateCache.put('ui-grid/gridFooterSelectedItems',
+            "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
         );
         $templateCache.put('ui-grid/gridFooterSelectedItems',
             "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
