@@ -78,7 +78,7 @@ Example:
 <h3>Contributing</h3>
 Feel free to contribute with anything from ui-grid templates to translations and doc improvements.
 
-<h3>Licence</h3>
+<h3>License</h3>
 
 The MIT License (MIT)
 
