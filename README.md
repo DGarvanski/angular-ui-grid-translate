@@ -34,7 +34,7 @@ angular-ui-grid-translate currently works with a handful of languages and elemen
 
 <h2>If you want to use it anyway</h2>
 
-<h3>Installing</h3>
+<h3>Installation</h3>
 <pre>git clone http://github.com/DGarvanski/angular-ui-grid-translate/</pre>
 or
 <pre>bower install angular-ui-grid-translate --save</pre>
