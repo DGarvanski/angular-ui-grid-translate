@@ -42,7 +42,7 @@ or
 <h3>Use</h3>
 <b>1.Add js file to your index.html:</b>
 
-`<script src="js/angular-ui-grid-translate.js"></script>`
+`<script src="angular-ui-grid-translate/js/angular-ui-grid-translate.js"></script>`
 
 or
 
