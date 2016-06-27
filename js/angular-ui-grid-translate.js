@@ -28,7 +28,7 @@
             "<span>{{'footer_totalItems' | translate}} {{grid.rows.length}}</span> " +
             "<span ng-if=\"grid.renderContainers.body.visibleRowCache.length !== grid.rows.length\" class=\"ngLabel\">({{\"footer_showingItems\" | translate}} {{grid.renderContainers.body.visibleRowCache.length}})</span></div>"
         );
-        $templateCache.put('ui-grid/uiGridColumnMenu',
+        /*$templateCache.put('ui-grid/uiGridColumnMenu',
             "<div class=\"ui-grid-column-menu\"><div ui-grid-menu menu-items=\"menuItems\"><div class=\"ui-grid-column-menu\"> " +
             "    <div class=\"inner\" ng-show=\"menuShown\"> " +
             "      <ul> " +
@@ -40,7 +40,7 @@
             "      </ul>" +
             "    </div>" +
             "  </div></div></div>"
-        );
+        );*/
         $templateCache.put('ui-grid/gridFooterSelectedItems',
             "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
         );
