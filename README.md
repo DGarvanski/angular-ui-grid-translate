@@ -9,7 +9,7 @@ Pagination demo on Plunker: [Pagination Demo](http://plnkr.co/3fkdue)
 angular-ui-grid translate overrides the default [angular-ui-grid](http://ui-grid.info/) templates to allow translating grid elements with [angular-translate](https://angular-translate.github.io/), thus avoiding the need to configure both angular-translate and the ui-grid i18n service. The whole idea is to unify your apps internationalization into one configuration and give more flexibility to ui-grids i18n.
 
 <h3>Why?</h3>
-ui-grid is pretty limited in what it does with its localization. While it does provide a big array of available translations, it does require that you specifically congifure the usage of the i18n service separately from your app internationalization if you're using [angular-translate](https://angular-translate.github.io/).
+ui-grid is pretty limited in what it does with its localization. While it does provide a big array of available translations, it does require that you specifically configure the usage of the i18n service separately from your app internationalization if you're using [angular-translate](https://angular-translate.github.io/).
 
 <h3>What works currently (as of 0.0.1)?</h3>
 angular-ui-grid-translate currently works with a handful of languages and elements. It is not production ready or to be used in a production app.<br/>
