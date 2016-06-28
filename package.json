@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/DGarvanski/angular-ui-grid-translate/issues"
   },
-  "homepage": "https://github.com/DGarvanski/angular-ui-grid-translate#readme"
+  "homepage": "https://github.com/DGarvanski/angular-ui-grid-translate#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-grid": "^3.0.0",
+    "angular-translate": "^2.0.0"
+  }
 }
