@@ -38,6 +38,8 @@ angular-ui-grid-translate currently works with a handful of languages and elemen
 <pre>git clone http://github.com/DGarvanski/angular-ui-grid-translate/</pre>
 or
 <pre>bower install angular-ui-grid-translate --save</pre>
+or
+<pre>npm install angular-ui-grid-translate</pre>
 
 <h3>Use</h3>
 <b>1.Add js file to your index.html:</b>
@@ -47,6 +49,10 @@ or
 or
 
 `<script src="bower_components/angular-ui-grid-translate/js/angular-ui-grid-translate.js"></script>`
+
+or
+
+`<script src="node_modules/angular-ui-grid-translate/js/angular-ui-grid-translate.js"></script>`
 
 <b>NOTE: MUST BE ADDED AFTER THE UI-GRID IN THE INDEX</b>
 <hr/>
