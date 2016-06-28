@@ -355,6 +355,71 @@
             /*End column menu translations*/
 
         });
+        $translateProvider.translations('ru', {
+            pagination_firstPage: "Первая страница",
+            pagination_pageBack: "Предыдущая страница",
+            pagination_nextPage: "Следующая страница",
+            pagination_lastPage: "Последняя страница",
+            pagination_itemsPerPage: "строк на страницу",
+            pagination_of: "из",
+            pagination_items: "строк",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Всего элементов:",
+            footer_showingItems: "Показать элементы:",
+            footer_selectedItems: "Выбранные элементы:",
+            /*End Footer Translations*/
+
+            sort_ascending: "По возрастанию",
+            sort_descending: "По убыванию",
+            sort_remove: "Убрать сортировку"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ru', {
+            pagination_firstPage: "Первая страница",
+            pagination_pageBack: "Предыдущая страница",
+            pagination_nextPage: "Следующая страница",
+            pagination_lastPage: "Последняя страница",
+            pagination_itemsPerPage: "строк на страницу",
+            pagination_of: "из",
+            pagination_items: "строк",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Всего элементов:",
+            footer_showingItems: "Показать элементы:",
+            footer_selectedItems: "Выбранные элементы:",
+            /*End Footer Translations*/
+
+            sort_ascending: "По возрастанию",
+            sort_descending: "По убыванию",
+            sort_remove: "Убрать сортировку"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ru_RU', {
+            pagination_firstPage: "Первая страница",
+            pagination_pageBack: "Предыдущая страница",
+            pagination_nextPage: "Следующая страница",
+            pagination_lastPage: "Последняя страница",
+            pagination_itemsPerPage: "строк на страницу",
+            pagination_of: "из",
+            pagination_items: "строк",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Всего элементов:",
+            footer_showingItems: "Показать элементы:",
+            footer_selectedItems: "Выбранные элементы:",
+            /*End Footer Translations*/
+
+            sort_ascending: "По возрастанию",
+            sort_descending: "По убыванию",
+            sort_remove: "Убрать сортировку"
+            /*End column menu translations*/
+
+        });
 
         $translateProvider.translations('cz', {
             pagination_firstPage: "První strana",
@@ -484,6 +549,50 @@
             sort_ascending: "Sorter stigende",
             sort_descending: "Sorter faldende",
             sort_remove: "Fjern sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('sv', {
+            pagination_firstPage: "Första sidan",
+            pagination_pageBack: "Föregående sida",
+            pagination_nextPage: "Nästa sida",
+            pagination_lastPage: "Sista sidan",
+            pagination_itemsPerPage: "Artiklar per sida",
+            pagination_of: "av",
+            pagination_items: "artiklar",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Antal artiklar:",
+            footer_showingItems: "Visar artiklar:",
+            footer_selectedItems: "Valda artiklar:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sortera stigande",
+            sort_descending: "Sortera fallande",
+            sort_remove: "Inaktivera sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('sv_SE', {
+            pagination_firstPage: "Första sidan",
+            pagination_pageBack: "Föregående sida",
+            pagination_nextPage: "Nästa sida",
+            pagination_lastPage: "Sista sidan",
+            pagination_itemsPerPage: "Artiklar per sida",
+            pagination_of: "av",
+            pagination_items: "artiklar",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Antal artiklar:",
+            footer_showingItems: "Visar artiklar:",
+            footer_selectedItems: "Valda artiklar:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sortera stigande",
+            sort_descending: "Sortera fallande",
+            sort_remove: "Inaktivera sortering"
             /*End column menu translations*/
 
         });
