@@ -605,7 +605,7 @@
             pagination_lastPage: "前のページ",
             pagination_itemsPerPage: "項目/ページ",
             pagination_of: "項目/全",
-            pagination_items: "items",
+            pagination_items: " ",
             /* End Pagination Translations */
 
             footer_totalItems: "項目の総数:",
@@ -627,7 +627,7 @@
             pagination_lastPage: "前のページ",
             pagination_itemsPerPage: "項目/ページ",
             pagination_of: "項目/全",
-            pagination_items: "items",
+            pagination_items: " ",
             /* End Pagination Translations */
 
             footer_totalItems: "項目の総数:",
