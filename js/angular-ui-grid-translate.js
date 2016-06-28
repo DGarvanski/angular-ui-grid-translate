@@ -118,6 +118,7 @@
             /*End column menu translations*/
 
         });
+
         $translateProvider.translations('en_US', {
             pagination_firstPage: "First page",
             pagination_pageBack: "Previous page",
@@ -354,6 +355,138 @@
             sort_ascending: "Järjestä nouseva",
             sort_descending: "Järjestä laskeva",
             sort_remove: "Poista järjestys"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('cz', {
+            pagination_firstPage: "První strana",
+            pagination_pageBack: "Předchozí strana",
+            pagination_nextPage: "Další strana",
+            pagination_lastPage: "Poslední strana",
+            pagination_itemsPerPage: "položek na stránku",
+            pagination_of: "/",
+            pagination_items: "položek",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Celkem položek:",
+            footer_showingItems: "Zobrazuji položky:",
+            footer_selectedItems: "Vybrané položky:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Seřadit od A-Z",
+            sort_descending: "Seřadit od Z-A",
+            sort_remove: "Odebrat seřazení"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('cz_CZ', {
+            pagination_firstPage: "První strana",
+            pagination_pageBack: "Předchozí strana",
+            pagination_nextPage: "Další strana",
+            pagination_lastPage: "Poslední strana",
+            pagination_itemsPerPage: "položek na stránku",
+            pagination_of: "/",
+            pagination_items: "položek",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Celkem položek:",
+            footer_showingItems: "Zobrazuji položky:",
+            footer_selectedItems: "Vybrané položky:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Seřadit od A-Z",
+            sort_descending: "Seřadit od Z-A",
+            sort_remove: "Odebrat seřazení"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('da', {
+            pagination_firstPage: "Første side",
+            pagination_pageBack: "Forrige side",
+            pagination_nextPage: "Næste side",
+            pagination_lastPage: "Sidste side",
+            pagination_itemsPerPage: "rækker per sida",
+            pagination_of: "af",
+            pagination_items: "rækker",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Rækker totalt:",
+            footer_showingItems: "Viste rækker:",
+            footer_selectedItems: "Valgte rækker:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sorter stigende",
+            sort_descending: "Sorter faldende",
+            sort_remove: "Fjern sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('da_DA', {
+            pagination_firstPage: "Første side",
+            pagination_pageBack: "Forrige side",
+            pagination_nextPage: "Næste side",
+            pagination_lastPage: "Sidste side",
+            pagination_itemsPerPage: "rækker per sida",
+            pagination_of: "af",
+            pagination_items: "rækker",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Rækker totalt:",
+            footer_showingItems: "Viste rækker:",
+            footer_selectedItems: "Valgte rækker:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sorter stigende",
+            sort_descending: "Sorter faldende",
+            sort_remove: "Fjern sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('de', {
+            pagination_firstPage: "Erste Seite",
+            pagination_pageBack: "Vorherige Seite",
+            pagination_nextPage: "Nächste Seite",
+            pagination_lastPage: "Letzte Seite",
+            pagination_itemsPerPage: "objekte pro seite",
+            pagination_of: "von",
+            pagination_items: "objekte",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Einträge gesamt:",
+            footer_showingItems: "Zeige Einträge:",
+            footer_selectedItems: "Ausgewählte Einträge:",
+            /*End Footer Translations*/
+
+            sort_ascending: "aufsteigend sortieren",
+            sort_descending: "absteigend sortieren",
+            sort_remove: "Sortierung zurücksetzen"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('de_DE', {
+            pagination_firstPage: "Erste Seite",
+            pagination_pageBack: "Vorherige Seite",
+            pagination_nextPage: "Nächste Seite",
+            pagination_lastPage: "Letzte Seite",
+            pagination_itemsPerPage: "objekte pro seite",
+            pagination_of: "von",
+            pagination_items: "objekte",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Einträge gesamt:",
+            footer_showingItems: "Zeige Einträge:",
+            footer_selectedItems: "Ausgewählte Einträge:",
+            /*End Footer Translations*/
+
+            sort_ascending: "aufsteigend sortieren",
+            sort_descending: "absteigend sortieren",
+            sort_remove: "Sortierung zurücksetzen"
             /*End column menu translations*/
 
         });
