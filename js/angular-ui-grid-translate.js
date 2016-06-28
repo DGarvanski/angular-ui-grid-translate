@@ -685,6 +685,116 @@
             /*End column menu translations*/
 
         });
+
+        $translateProvider.translations('pt', {
+            pagination_firstPage: "Primeira Página",
+            pagination_pageBack: "Página Anterior",
+            pagination_nextPage: "Próxima Página",
+            pagination_lastPage: "Última Página",
+            pagination_itemsPerPage: "itens por página",
+            pagination_of: "de",
+            pagination_items: "itens",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total de Itens:",
+            footer_showingItems: "Mostrando os Itens:",
+            footer_selectedItems: "Itens Selecionados:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Ordenar Ascendente",
+            sort_descending: "Ordenar Descendente",
+            sort_remove: "Remover Ordenação"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('pt_BR', {
+            pagination_firstPage: "Primeira Página",
+            pagination_pageBack: "Página Anterior",
+            pagination_nextPage: "Próxima Página",
+            pagination_lastPage: "Última Página",
+            pagination_itemsPerPage: "itens por página",
+            pagination_of: "de",
+            pagination_items: "itens",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total de Itens:",
+            footer_showingItems: "Mostrando os Itens:",
+            footer_selectedItems: "Itens Selecionados:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Ordenar Ascendente",
+            sort_descending: "Ordenar Descendente",
+            sort_remove: "Remover Ordenação"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('pt_PT', {
+            pagination_firstPage: "Primeira Página",
+            pagination_pageBack: "Página Anterior",
+            pagination_nextPage: "Próxima Página",
+            pagination_lastPage: "Última Página",
+            pagination_itemsPerPage: "itens por página",
+            pagination_of: "de",
+            pagination_items: "itens",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total de Itens:",
+            footer_showingItems: "Mostrando os Itens:",
+            footer_selectedItems: "Itens Selecionados:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Ordenar Ascendente",
+            sort_descending: "Ordenar Descendente",
+            sort_remove: "Remover Ordenação"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ro', {
+            pagination_firstPage: "Prima pagina",
+            pagination_pageBack: "Pagina anterioara",
+            pagination_nextPage: "Pagina urmatoare",
+            pagination_lastPage: "Ultima pagina",
+            pagination_itemsPerPage: "elemente per pagina",
+            pagination_of: "of",
+            pagination_items: "elemente",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total elemente:",
+            footer_showingItems: "Arata elementele:",
+            footer_selectedItems: "Elementele selectate:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Ordoneaza crescator",
+            sort_descending: "Ordoneaza descrescator",
+            sort_remove: "Sterge ordonarea"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ro_RO', {
+            pagination_firstPage: "Prima pagina",
+            pagination_pageBack: "Pagina anterioara",
+            pagination_nextPage: "Pagina urmatoare",
+            pagination_lastPage: "Ultima pagina",
+            pagination_itemsPerPage: "elemente per pagina",
+            pagination_of: "of",
+            pagination_items: "elemente",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Total elemente:",
+            footer_showingItems: "Arata elementele:",
+            footer_selectedItems: "Elementele selectate:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Ordoneaza crescator",
+            sort_descending: "Ordoneaza descrescator",
+            sort_remove: "Sterge ordonarea"
+            /*End column menu translations*/
+
+        });
         //Translations end
 
         $translateProvider.preferredLanguage('en');
