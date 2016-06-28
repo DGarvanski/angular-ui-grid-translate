@@ -44,9 +44,6 @@
         $templateCache.put('ui-grid/gridFooterSelectedItems',
             "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
         );
-        $templateCache.put('ui-grid/gridFooterSelectedItems',
-            "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
-        );
         //Templates end
 
         //Optional controller. Should it be removed or left as an option?
