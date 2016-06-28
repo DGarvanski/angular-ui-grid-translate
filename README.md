@@ -24,15 +24,17 @@ angular-ui-grid-translate currently works with a handful of languages and elemen
 <b>Languages:</b>
 <ul>
 <li>English (can be used as "en", "en_US", "en_GB")</li>
-<li>Bulgarian (can be used as "bg", "bg_BG")</li>
 <li>French (can be used as "fr", "fr_FR")</li>
 <li>German (can be used as "de", "de_DE")</li>
+<li>Bulgarian (can be used as "bg", "bg_BG")</li>
+<li>Russian (can be used as "ru", "ru_RU")</li>
 <li>Czech (can be used as "cz", "cz_CZ")</li>
 <li>Polish (can be used as "pl", "pl_PL")</li>
 <li>Spanish (can be used as "es", "es_ES")</li>
 <li>Portuguese (can be used as "pt", "pt_PT", "pt_BR")</li>
 <li>Italian (can be used as "it", "it_IT")</li>
 <li>Romanian (can be used as "ro", "ro_RO")</li>
+<li>Swedish (can be used as "sv", "sv_SE")</li>
 <li>Finnish (can be used as "fi", "fi_FI")</li>
 <li>Danish (can be used as "da", "da_DA")</li>
 <li>Dutch (can be used as "nl", "nl_NL", "nl_BE")</li>
