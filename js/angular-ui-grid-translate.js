@@ -29,18 +29,18 @@
             "<span ng-if=\"grid.renderContainers.body.visibleRowCache.length !== grid.rows.length\" class=\"ngLabel\">({{\"footer_showingItems\" | translate}} {{grid.renderContainers.body.visibleRowCache.length}})</span></div>"
         );
         /*$templateCache.put('ui-grid/uiGridColumnMenu',
-            "<div class=\"ui-grid-column-menu\"><div ui-grid-menu menu-items=\"menuItems\"><div class=\"ui-grid-column-menu\"> " +
-            "    <div class=\"inner\" ng-show=\"menuShown\"> " +
-            "      <ul> " +
-            "        <div ng-show=\"grid.options.enableSorting\"> " +
-            "          <li ng-click=\"sortColumn($event, asc)\" ng-class=\"{ 'selected' : col.sort.direction == asc }\"><i class=\"ui-grid-icon-sort-alt-up\"></i> {{sort_ascending | translate}}</li> " +
-            "          <li ng-click=\"sortColumn($event, desc)\" ng-class=\"{ 'selected' : col.sort.direction == desc }\"><i class=\"ui-grid-icon-sort-alt-down\"></i> {{sort_descending | translate}}</li> " +
-            "          <li ng-show=\"col.sort.direction\" ng-click=\"unsortColumn()\"><i class=\"ui-grid-icon-cancel\"></i> {{sort_remove | translate}}</li> " +
-            "        </div> " +
-            "      </ul>" +
-            "    </div>" +
-            "  </div></div></div>"
-        );*/
+         "<div class=\"ui-grid-column-menu\"><div ui-grid-menu menu-items=\"menuItems\"><div class=\"ui-grid-column-menu\"> " +
+         "    <div class=\"inner\" ng-show=\"menuShown\"> " +
+         "      <ul> " +
+         "        <div ng-show=\"grid.options.enableSorting\"> " +
+         "          <li ng-click=\"sortColumn($event, asc)\" ng-class=\"{ 'selected' : col.sort.direction == asc }\"><i class=\"ui-grid-icon-sort-alt-up\"></i> {{sort_ascending | translate}}</li> " +
+         "          <li ng-click=\"sortColumn($event, desc)\" ng-class=\"{ 'selected' : col.sort.direction == desc }\"><i class=\"ui-grid-icon-sort-alt-down\"></i> {{sort_descending | translate}}</li> " +
+         "          <li ng-show=\"col.sort.direction\" ng-click=\"unsortColumn()\"><i class=\"ui-grid-icon-cancel\"></i> {{sort_remove | translate}}</li> " +
+         "        </div> " +
+         "      </ul>" +
+         "    </div>" +
+         "  </div></div></div>"
+         );*/
         $templateCache.put('ui-grid/gridFooterSelectedItems',
             "<span ng-if=\"grid.selection.selectedCount !== 0 && grid.options.enableFooterTotalSelected\">({{\"footer_selectedItems\" | translate}} {{grid.selection.selectedCount}})</span>"
         );
@@ -403,6 +403,50 @@
 
         });
 
+        $translateProvider.translations('pl', {
+            pagination_firstPage: "Pierwsza strona",
+            pagination_pageBack: "Poprzednia strona",
+            pagination_nextPage: "Następna strona",
+            pagination_lastPage: "Ostatnia strona",
+            pagination_itemsPerPage: "pozycji na stronę",
+            pagination_of: "z",
+            pagination_items: "pozycji",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Wszystkich pozycji:",
+            footer_showingItems: "Widoczne pozycje:",
+            footer_selectedItems: "Zaznaczone pozycje:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sortuj rosnąco",
+            sort_descending: "Sortuj malejąco",
+            sort_remove: "Wyłącz sortowanie"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('pl_PL', {
+            pagination_firstPage: "Pierwsza strona",
+            pagination_pageBack: "Poprzednia strona",
+            pagination_nextPage: "Następna strona",
+            pagination_lastPage: "Ostatnia strona",
+            pagination_itemsPerPage: "pozycji na stronę",
+            pagination_of: "z",
+            pagination_items: "pozycji",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Wszystkich pozycji:",
+            footer_showingItems: "Widoczne pozycje:",
+            footer_selectedItems: "Zaznaczone pozycje:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sortuj rosnąco",
+            sort_descending: "Sortuj malejąco",
+            sort_remove: "Wyłącz sortowanie"
+            /*End column menu translations*/
+
+        });
+
         $translateProvider.translations('da', {
             pagination_firstPage: "Første side",
             pagination_pageBack: "Forrige side",
@@ -487,6 +531,160 @@
             sort_ascending: "aufsteigend sortieren",
             sort_descending: "absteigend sortieren",
             sort_remove: "Sortierung zurücksetzen"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('nl', {
+            pagination_firstPage: "Eerste pagina",
+            pagination_pageBack: "Vorige pagina",
+            pagination_nextPage: "Volgende pagina",
+            pagination_lastPage: "Laatste pagina",
+            pagination_itemsPerPage: "items per pagina",
+            pagination_of: "van de",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Totaal aantal items:",
+            footer_showingItems: "Getoonde items:",
+            footer_selectedItems: "Geselecteerde items:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sorteer oplopend",
+            sort_descending: "Sorteer aflopend",
+            sort_remove: "Verwijder sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('nl_NL', {
+            pagination_firstPage: "Eerste pagina",
+            pagination_pageBack: "Vorige pagina",
+            pagination_nextPage: "Volgende pagina",
+            pagination_lastPage: "Laatste pagina",
+            pagination_itemsPerPage: "items per pagina",
+            pagination_of: "van de",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Totaal aantal items:",
+            footer_showingItems: "Getoonde items:",
+            footer_selectedItems: "Geselecteerde items:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sorteer oplopend",
+            sort_descending: "Sorteer aflopend",
+            sort_remove: "Verwijder sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('nl_BE', {
+            pagination_firstPage: "Eerste pagina",
+            pagination_pageBack: "Vorige pagina",
+            pagination_nextPage: "Volgende pagina",
+            pagination_lastPage: "Laatste pagina",
+            pagination_itemsPerPage: "items per pagina",
+            pagination_of: "van de",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Totaal aantal items:",
+            footer_showingItems: "Getoonde items:",
+            footer_selectedItems: "Geselecteerde items:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Sorteer oplopend",
+            sort_descending: "Sorteer aflopend",
+            sort_remove: "Verwijder sortering"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ja', {
+            pagination_firstPage: "最初のページ",
+            pagination_pageBack: "前のページ",
+            pagination_nextPage: "次のページ",
+            pagination_lastPage: "前のページ",
+            pagination_itemsPerPage: "項目/ページ",
+            pagination_of: "項目/全",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "項目の総数:",
+            footer_showingItems: "表示中の項目:",
+            footer_selectedItems: "選択した項目:",
+            /*End Footer Translations*/
+
+            sort_ascending: "昇順に並べ替え",
+            sort_descending: "降順に並べ替え",
+            sort_remove: "並べ替えの解除"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ja_JP', {
+            pagination_firstPage: "最初のページ",
+            pagination_pageBack: "前のページ",
+            pagination_nextPage: "次のページ",
+            pagination_lastPage: "前のページ",
+            pagination_itemsPerPage: "項目/ページ",
+            pagination_of: "項目/全",
+            pagination_items: "items",
+            /* End Pagination Translations */
+
+            footer_totalItems: "項目の総数:",
+            footer_showingItems: "表示中の項目:",
+            footer_selectedItems: "選択した項目:",
+            /*End Footer Translations*/
+
+            sort_ascending: "昇順に並べ替え",
+            sort_descending: "降順に並べ替え",
+            sort_remove: "並べ替えの解除"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ko', {
+            pagination_firstPage: "첫번째 페이지",
+            pagination_pageBack: "이전 페이지",
+            pagination_nextPage: "다음 페이지",
+            pagination_lastPage: "마지막 페이지",
+            pagination_itemsPerPage: "페이지당 항목",
+            pagination_of: "/",
+            pagination_items: "항목",
+            /* End Pagination Translations */
+
+            footer_totalItems: "전체 항목:",
+            footer_showingItems: "항목 보여주기:",
+            footer_selectedItems: "선택 항목:",
+            /*End Footer Translations*/
+
+            sort_ascending: "오름차순 정렬",
+            sort_descending: "내림차순 정렬",
+            sort_remove: "소팅 제거"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ko_KR', {
+            pagination_firstPage: "첫번째 페이지",
+            pagination_pageBack: "이전 페이지",
+            pagination_nextPage: "다음 페이지",
+            pagination_lastPage: "마지막 페이지",
+            pagination_itemsPerPage: "페이지당 항목",
+            pagination_of: "/",
+            pagination_items: "항목",
+            /* End Pagination Translations */
+
+            footer_totalItems: "전체 항목:",
+            footer_showingItems: "항목 보여주기:",
+            footer_selectedItems: "선택 항목:",
+            /*End Footer Translations*/
+
+            sort_ascending: "오름차순 정렬",
+            sort_descending: "내림차순 정렬",
+            sort_remove: "소팅 제거"
             /*End column menu translations*/
 
         });
