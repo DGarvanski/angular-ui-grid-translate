@@ -904,6 +904,185 @@
             /*End column menu translations*/
 
         });
+
+        $translateProvider.translations('sk', {
+            pagination_firstPage: "Prvá strana",
+            pagination_pageBack: "Predchádzajúca strana",
+            pagination_nextPage: "Ďalšia strana",
+            pagination_lastPage: "Posledná strana",
+            pagination_itemsPerPage: "položiek na stránku",
+            pagination_of: "z",
+            pagination_items: "položiek",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Počet položiek:",
+            footer_showingItems: "Zobrazujem položky:",
+            footer_selectedItems: "Vybraté položky:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Zotriediť vzostupne",
+            sort_descending: "Zotriediť zostupne",
+            sort_remove: "Vymazať triedenie"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('sk_SK', {
+            pagination_firstPage: "Prvá strana",
+            pagination_pageBack: "Predchádzajúca strana",
+            pagination_nextPage: "Ďalšia strana",
+            pagination_lastPage: "Posledná strana",
+            pagination_itemsPerPage: "položiek na stránku",
+            pagination_of: "z",
+            pagination_items: "položiek",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Počet položiek:",
+            footer_showingItems: "Zobrazujem položky:",
+            footer_selectedItems: "Vybraté položky:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Zotriediť vzostupne",
+            sort_descending: "Zotriediť zostupne",
+            sort_remove: "Vymazať triedenie"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ta', {
+            pagination_firstPage: "முதல் பக்கம",
+            pagination_pageBack: "முந்தைய பக்கம்",
+            pagination_nextPage: "அடுத்த பக்கம",
+            pagination_lastPage: "இறுதி பக்கம",
+            pagination_itemsPerPage: "உருப்படிகள் / பக்கம",
+            pagination_of: " ",
+            pagination_items: "உருப்படிகள்",
+            /* End Pagination Translations */
+
+            footer_totalItems: "மொத்த உருப்படிகள்:",
+            footer_showingItems: "உருப்படிகளை காண்பித்தல்:",
+            footer_selectedItems: "தேர்ந்தெடுக்கப்பட்ட  உருப்படிகள்:",
+            /*End Footer Translations*/
+
+            sort_ascending: "ேலிருந்து கீழாக",
+            sort_descending: "கீழிருந்து மேலாக",
+            sort_remove: "வரிசையை நீக்க"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('ta_IN', {
+            pagination_firstPage: "முதல் பக்கம",
+            pagination_pageBack: "முந்தைய பக்கம்",
+            pagination_nextPage: "அடுத்த பக்கம",
+            pagination_lastPage: "இறுதி பக்கம",
+            pagination_itemsPerPage: "உருப்படிகள் / பக்கம",
+            pagination_of: " ",
+            pagination_items: "உருப்படிகள்",
+            /* End Pagination Translations */
+
+            footer_totalItems: "மொத்த உருப்படிகள்:",
+            footer_showingItems: "உருப்படிகளை காண்பித்தல்:",
+            footer_selectedItems: "தேர்ந்தெடுக்கப்பட்ட  உருப்படிகள்:",
+            /*End Footer Translations*/
+
+            sort_ascending: "ேலிருந்து கீழாக",
+            sort_descending: "கீழிருந்து மேலாக",
+            sort_remove: "வரிசையை நீக்க"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('tr', {
+            pagination_firstPage: "İlk Sayfa",
+            pagination_pageBack: "Önceki Sayfa",
+            pagination_nextPage: "Sonraki Sayfa",
+            pagination_lastPage: "Son Sayfa",
+            pagination_itemsPerPage: "Sayfadaki nesne sayısı",
+            pagination_of: " ",
+            pagination_items: "kayıtlar",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Toplam Kayıt:",
+            footer_showingItems: "Gösterilen Kayıt:",
+            footer_selectedItems: "Seçili Kayıt:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Artan Sırada Sırala",
+            sort_descending: "Azalan Sırada Sırala",
+            sort_remove: "Sıralamayı Kaldır"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('tr_TR', {
+            pagination_firstPage: "İlk Sayfa",
+            pagination_pageBack: "Önceki Sayfa",
+            pagination_nextPage: "Sonraki Sayfa",
+            pagination_lastPage: "Son Sayfa",
+            pagination_itemsPerPage: "Sayfadaki nesne sayısı",
+            pagination_of: " ",
+            pagination_items: "kayıtlar",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Toplam Kayıt:",
+            footer_showingItems: "Gösterilen Kayıt:",
+            footer_selectedItems: "Seçili Kayıt:",
+            /*End Footer Translations*/
+
+            sort_ascending: "Artan Sırada Sırala",
+            sort_descending: "Azalan Sırada Sırala",
+            sort_remove: "Sıralamayı Kaldır"
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('hy', {
+            pagination_firstPage: "Առաջին էջ",
+            pagination_pageBack: "Նախորդ էջ",
+            pagination_nextPage: "Հաջորդ էջ",
+            pagination_lastPage: "Վերջին էջ",
+            pagination_itemsPerPage: "Ապրանքներ մեկ էջում",
+            pagination_of: "/",
+            pagination_items: "նյութեր",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Ընդամենը",
+            footer_showingItems: "Ցուցադրված տվյալներ",
+            footer_selectedItems: "Ընտրված",
+            /*End Footer Translations*/
+
+            sort_ascending: "Աճման կարգով",
+            sort_descending: "Նվազման կարգով",
+            sort_remove: "Հանել "
+            /*End column menu translations*/
+
+        });
+
+        $translateProvider.translations('hy_AM', {
+            pagination_firstPage: "Առաջին էջ",
+            pagination_pageBack: "Նախորդ էջ",
+            pagination_nextPage: "Հաջորդ էջ",
+            pagination_lastPage: "Վերջին էջ",
+            pagination_itemsPerPage: "Ապրանքներ մեկ էջում",
+            pagination_of: "/",
+            pagination_items: "նյութեր",
+            /* End Pagination Translations */
+
+            footer_totalItems: "Ընդամենը",
+            footer_showingItems: "Ցուցադրված տվյալներ",
+            footer_selectedItems: "Ընտրված",
+            /*End Footer Translations*/
+
+            sort_ascending: "Աճման կարգով",
+            sort_descending: "Նվազման կարգով",
+            sort_remove: "Հանել "
+            /*End column menu translations*/
+
+        });
+
+
+
         //Translations end
 
         $translateProvider.preferredLanguage('en');
