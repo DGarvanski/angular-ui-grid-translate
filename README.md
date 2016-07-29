@@ -3,7 +3,7 @@ An extension for [angular-ui-grid](http://ui-grid.info/), which allows the usage
 
 <b>WORK IN PROGRESS, NOT FULLY FUNCTIONAL!</b>
 
-Demo on Plunker: [DEMO](http://plnkr.co/3fkdue)
+<b>Demo on Plunker: [DEMO](http://plnkr.co/3fkdue)</b>
 
 <h3>What it does</h3>
 angular-ui-grid translate overrides the default [angular-ui-grid](http://ui-grid.info/) templates to allow translating grid elements with [angular-translate](https://angular-translate.github.io/), thus avoiding the need to configure both angular-translate and the ui-grid i18n service. The whole idea is to unify your apps internationalization into one configuration and give more flexibility to ui-grids i18n.
@@ -54,7 +54,7 @@ angular-ui-grid-translate currently works with a handful of languages and elemen
 or
 <pre>bower install angular-ui-grid-translate --save</pre>
 or
-<pre>npm install angular-ui-grid-translate</pre>
+<pre>npm install angular-ui-grid-translate --save</pre>
 
 <h3>Use</h3>
 <b>1.Add js file to your index.html:</b>
