@@ -12,7 +12,7 @@ angular-ui-grid translate overrides the default [angular-ui-grid](http://ui-grid
 ui-grid is pretty limited in what it does with its localization. While it does provide a big array of available translations, it does require that you specifically configure the usage of the i18n service separately from your app internationalization if you're using [angular-translate](https://angular-translate.github.io/).
 
 <h3>What works currently?</h3>
-angular-ui-grid-translate currently works with a handful of languages and elements. It is not production ready or to be used in a production app.<br/>
+angular-ui-grid-translate currently works with a handful of languages and elements. It is not a full-fledged, finished project and doesn't translate every ui-grid element.<br/>
 
 <b>Elements:</b>
 <ul>
